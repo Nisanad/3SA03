@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CharacterCard from './CharacterCard';
 import _ from 'lodash';
-//tests
 const refreshPage = () => window.location.reload(false);
 const prepareStateFromWord = (given_word) => {
     let word = given_word.toUpperCase()
